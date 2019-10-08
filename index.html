@@ -6,17 +6,61 @@ body {
     font-size: 14px;
     color: limegreen;
   	text-shadow: 1px 1px 1px #32CD32;
+    padding-top: 20px;
+    padding-right: 388px;
+    padding-left: 388px;
+    background-color:black;
 }
+.link{
+    float: right;
+    padding-right: 10px;
+}
+.footer{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    white-space: nowrap;
+    overflow: nowrap;
+}
+
+blink {
+        animation: blinker 1s linear infinite;
+        color: limegreen;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+
 </style>
 </head>
 <body>
-<body style="background-color:black;">
-    <center>> */ Inside the mind of cheesewadd /* <</center>
-    <p></p>
-    <br><center>/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\_/\</center>
-    <br><center>Welcome to my Blog.    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/" style="color:limegreen">/index</a> &nbsp; <a href="/about.html" style="color:limegreen">/about-me</a>  </center>
-    <br><center>\/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/</center>
-    <p></p>
-   <center>- [ 2019-9-7 ] <a href="/demolink" style="color:limegreen">Demo Blog Link</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center>
-   <p></p>
-    <center>-------------------------------------------------------------------------</center>
+<div class="header">
+    <p>> cd 'Inside the mind of cheesewadd'<blink>|</blink></p>
+</div>
+
+    <p>------------------------------------------------------------------------------------</p>
+    <div><b text-align="left">Welcome to the Cheese Blog. </b>  <a href="/index.html" class="link" text-align="right" style="color:limegreen">/index</a><a href="/about-me.html" class="link"text-align="right" style="color:limegreen">/about-me</a></div>
+    <p>------------------------------------------------------------------------------------</p>
+
+<div class="Posts">
+   <p>- [ 2019-9-8 ] <a href="/ejptexperience.html" style="color:limegreen">The eJPT Experience</a></p>
+</div>
+<div class="footer">
+    <p>-----------------------------------------------------------------------------</p>
+    <p>A Blog about the personal experience and security research of Cheesewadd</p>
+</div>
+</body>
